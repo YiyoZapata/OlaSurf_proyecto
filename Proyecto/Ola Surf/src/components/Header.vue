@@ -40,5 +40,5 @@
           </div>
         </div>
       </nav>
-      <img src="img/navbar.jpg" class="img-fluid" alt="...">
+      <img src="img/prueba1.jpg" class="img-fluid" alt="Responsive image">
     </template>
