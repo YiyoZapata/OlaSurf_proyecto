@@ -12,19 +12,14 @@ import Cards from "./components/Cards.vue";
   </div>
 
   <div>
-
-
     <div>
       <Carrusel></Carrusel>
     </div>
 
-    <div  class="m-1">
+    <div class="m-3">
       <Cards></Cards>
     </div>
-
   </div>
-
-  
 
   <div>
     <Footer></Footer>
