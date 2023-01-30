@@ -19,7 +19,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sobre nosotros</a>
+            <a class="nav-link" href="views/SobreNosotros.vue"><RouterLink to="/nosotros" >Sobre nosotros</RouterLink> </a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -65,18 +65,16 @@
 </template>
 
 <style scoped>
-.video-container {
-  text-align: center;
-  width: 100vw;
-  height: calc(100vw * 1, 777777778);
-  overflow: hidden;
-}
+
 
 .video-container video {
-  
+  text-align: center;
   top: 0;
   left: 0;
   width: 100vw;
+  height: calc(100vw * 0, 777);
+  
+  overflow: hidden;
 }
 
 .container-titulo{
