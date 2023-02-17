@@ -31,6 +31,12 @@
               ><RouterLink to="/login">Login</RouterLink>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="views/SobreNosotros.vue"
+              ><RouterLink to="/cesta">Cesta</RouterLink>
+            </a>
+          </li>
         </ul>
         <form class="d-flex">
           <input

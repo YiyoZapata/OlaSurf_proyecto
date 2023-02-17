@@ -1,17 +1,24 @@
 <script>
     const baseURL = "http://localhost:3000/";
+    import { ref } from 'vue'
+    const data = ref(null)
+    const error = ref(null)
 
 export default {
   data() {
     return {
       clases: [],
-
+      data: {},
       fondoBind: "/imgs/clas1.jpg",
     };
   },
-
+  created(){
+   
+   
+  },
   mounted() {
     this.fetchclases();
+    this.getDataByName();
   },
   methods: {
     fortmatResponse(res) {
@@ -25,36 +32,15 @@ export default {
       this.clases = data;
     },
 
-    async getDataByName() {
+    
+    getDataByName(){
       const name = this.$refs.get_name.value;
-
-      if (name) {
-        try {
-          const res = await fetch(`${baseURL}${name}`);
-
-          if (!res.ok) {
-            const message = `ha ocurrido un error: ${res.status} - ${res.statusText}`;
-            throw new Error(message);
-          }
-
-          const data = await res.json();
-
-          const result = {
-            data: data,
-            status: res.status,
-            statusText: res.statusText,
-            headers: {
-              "Content-Type": res.headers.get("Content-Type"),
-              "Content-Length": res.headers.get("Content-Length"),
-            },
-          };
-
-          this.getResult = this.fortmatResponse(result);
-        } catch (err) {
-          this.getResult = err.message;
-        }
-      }
-    },
+      fetch(`${baseURL}clases/${name}`)
+      .then(response => response.json())
+      .then(data => {
+        this.data = data;
+      });
+    }
 
   },
 };
@@ -107,6 +93,30 @@ export default {
     />
     <button type="button" class="btn btn-dark m-2" id="buscar"  @click="getDataByName">Buscar</button>
 
+  </div>
+
+  <div
+    class="card mb-3 mx-auto m-2"
+    style="max-width: 540px"
+   
+  >
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img :src="data.imgs" class="img-fluid rounded-start" />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ data.name }}</h5>
+          <p class="card-text">
+            {{ data.precio }}
+          </p>
+          <p class="card-text">{{ data.duracion }} €</p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div
