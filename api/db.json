@@ -1,146 +1,210 @@
 {
-  "clases":[
-      {
-          "id": 1,
-          "name": "Individual",
-          "precio": 10,
-          "duracion": "1 hora",
-          "imgs": "/imgs/indi.jpg"
-      },
-      {
-          "id": 2,
-          "name": "Parejas",
-          "precio": 15,
-          "duracion": "1 hora",
-          "imgs": "/imgs/par.jpg"
-      },
-      {
-          "id": 3,
-          "name": "Grupal, 4 personas.",
-          "precio": 40,
-          "duracion": "2 horas",
-          "imgs": "/imgs/group.jpg"
-      }
+  "clases": [
+    {
+      "id": 1,
+      "name": "Individual",
+      "precio": 10,
+      "duracion": "1 hora",
+      "imgs": "/imgs/indi.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Parejas",
+      "precio": 15,
+      "duracion": "1 hora",
+      "imgs": "/imgs/par.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Grupal, 4 personas.",
+      "precio": 40,
+      "duracion": "2 horas",
+      "imgs": "/imgs/group.jpg"
+    }
   ],
-  "alquileres":[
-      {
-          "id": 1,
-          "name": "Tabla surf principiantes",
-          "precio": 10,
-          "duracion": 1,
-          "img": "/img/principiantes.jpg"
-      },
-      {
-          "id": 2,
-          "name": "Tabla surf avanzados",
-          "precio": 14,
-          "duracion": 1,
-          "img": "/img/avanzados.jpg"
-      },
-      {
-          "id": 3,
-          "name": "Paddle surf",
-          "precio": 15,
-          "duracion": 1,
-          "img": "/img/paddle.jpg"
-      },
-      {
-          "id": 4,
-          "name": "Neopreno corto",
-          "precio": 5,
-          "duracion": 1,
-          "img": "/img/neocorto.jpeg"
-      },
-      {
-          "id": 5,
-          "name": "Neopreno largo",
-          "precio": 8,
-          "duracion": 1,
-          "img": "/img/neolargo.jpeg"
-      }
+  "alquileres": [
+    {
+      "id": 1,
+      "name": "Tabla surf principiantes",
+      "precio": 10,
+      "duracion": 1,
+      "img": "/img/principiantes.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tabla surf avanzados",
+      "precio": 14,
+      "duracion": 1,
+      "img": "/img/avanzados.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Paddle surf",
+      "precio": 15,
+      "duracion": 1,
+      "img": "/img/paddle.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Neopreno corto",
+      "precio": 5,
+      "duracion": 1,
+      "img": "/img/neocorto.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Neopreno largo",
+      "precio": 8,
+      "duracion": 1,
+      "img": "/img/neolargo.jpeg"
+    }
   ],
-  "rutas":[
-      {
-          "id": 1,
-          "name": "Soller",
-          "descripcion" : "La perla de la Tramuntana, un pueblo con encanto y un toque antiguo y moderno a la vez",
-          "precio": 30,
-          "img": "/img/soller.jpg"
-      },
-      {
-          "id": 2,
-          "name": "Tramuntana",
-          "descripcion": "A parte de tener unas playas maravillosas, Mallorca cuneta con una columna de montañas donde podas respirar tranquilo y desconectar",
-          "precio": 30,
-          "img": "/img/tramun.jpg"
-      }
+  "rutas": [
+    {
+      "id": 1,
+      "name": "Soller",
+      "descripcion": "La perla de la Tramuntana, un pueblo con encanto y un toque antiguo y moderno a la vez",
+      "precio": 30,
+      "img": "/img/soller.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tramuntana",
+      "descripcion": "A parte de tener unas playas maravillosas, Mallorca cuneta con una columna de montañas donde podas respirar tranquilo y desconectar",
+      "precio": 30,
+      "img": "/img/tramun.jpg"
+    }
   ],
-  "hospedajes":[
-      {
-          "id": 1,
-          "habitacion": "Individual",
-          "precio": 50,
-          "img": "/img/individual.jpg",
-          "descripcion": "Habitación con baño individual y cama grande"
-      },
-      {
-          "id": 2,
-          "habitacion": "Doble",
-          "precio": 80,
-          "img": "/img/doble.jpg",
-          "descripcion": "Habitación con cama doble y baño propio y bañera"
-      },
-      {
-          "id": 3,
-          "habitacion": "Para cuatro",
-          "precio": 180,
-          "img": "/img/4baño.jpeg",
-          "descripcion": "Habitación con 4 camas individuales y baño propio"
-      },
-      {
-          "id": 4,
-          "habitacion": "Baño compartido",
-          "precio": 50,
-          "img": "/img/4sinbaño.jpeg",
-          "descripcion": "Habitación con 4 camas individuales y baño compartido"
-      }
-  ]
-  ,
-  "imgs":[
-      {
-          "id": 1,  
-          "imagenes": "/imgs/1.jpg"
-        
-      },
-      {
-          "id": 2,
-          "imagenes": "/imgs/2.jpg"
-          
-      },
-      {
-          "id": 3,
-          "imagenes": "/imgs/3.jpg"
-        
-      },
-      {
-          "id": 4,
-          "imagenes": "/imgs/4.jpg"
-      
-      },
-      {
-          "id": 5,
-          "imagenes": "/imgs/5.jpg"
-      
-      }
+  "hospedajes": [
+    {
+      "id": 1,
+      "habitacion": "Individual",
+      "precio": 50,
+      "img": "/img/individual.jpg",
+      "descripcion": "Habitación con baño individual y cama grande"
+    },
+    {
+      "id": 2,
+      "habitacion": "Doble",
+      "precio": 80,
+      "img": "/img/doble.jpg",
+      "descripcion": "Habitación con cama doble y baño propio y bañera"
+    },
+    {
+      "id": 3,
+      "habitacion": "Para cuatro",
+      "precio": 180,
+      "img": "/img/4baño.jpeg",
+      "descripcion": "Habitación con 4 camas individuales y baño propio"
+    },
+    {
+      "id": 4,
+      "habitacion": "Baño compartido",
+      "precio": 50,
+      "img": "/img/4sinbaño.jpeg",
+      "descripcion": "Habitación con 4 camas individuales y baño compartido"
+    }
+  ],
+  "imgs": [
+    {
+      "id": 1,
+      "imagenes": "/imgs/1.jpg"
+    },
+    {
+      "id": 2,
+      "imagenes": "/imgs/2.jpg"
+    },
+    {
+      "id": 3,
+      "imagenes": "/imgs/3.jpg"
+    },
+    {
+      "id": 4,
+      "imagenes": "/imgs/4.jpg"
+    },
+    {
+      "id": 5,
+      "imagenes": "/imgs/5.jpg"
+    }
   ],
   "cesta": [
     {
-        "id": 1,
-        "name": "Individual",
-        "precio": 10,
-        "duracion": "1 hora",
-        "imgs": "/imgs/indi.jpg"
+      "name": "Individual",
+      "duracion": "2",
+      "precio": 1,
+      "id": 2
+    },
+    {
+      "name": "pareja",
+      "duracion": "2",
+      "precio": 45,
+      "id": 3
+    },
+    {
+      "name": "Grupal",
+      "duracion": "5",
+      "precio": 4,
+      "id": 8
+    },
+    {
+      "name": "Grupal",
+      "duracion": "5",
+      "precio": 4,
+      "id": 9
+    },
+    {
+      "name": "Grupal",
+      "duracion": "3",
+      "precio": 2,
+      "id": 10
+    },
+    {
+      "name": "Individual",
+      "duracion": "e",
+      "precio": 2,
+      "id": 11
+    },
+    {
+      "name": "Grupal",
+      "duracion": "gj",
+      "precio": 3,
+      "id": 12
+    },
+    {
+      "name": "Grupal",
+      "duracion": "1",
+      "precio": 2,
+      "id": 13
+    },
+    {
+      "name": "in",
+      "duracion": "3",
+      "precio": 2,
+      "id": 14
+    },
+    {
+      "name": "Grupal",
+      "duracion": "4",
+      "precio": 4,
+      "id": 15
+    },
+    {
+      "name": "Grupal",
+      "duracion": "1",
+      "precio": 1,
+      "id": 16
+    },
+    {
+      "name": "Grupal",
+      "duracion": "1",
+      "precio": 1,
+      "id": 17
+    },
+    {
+      "name": "Grupal",
+      "duracion": "2",
+      "precio": 1,
+      "id": 18
     }
   ]
-
 }
