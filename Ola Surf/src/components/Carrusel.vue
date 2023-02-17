@@ -8,7 +8,7 @@
       <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/carrusel.jpg" class="d-block w-100" alt="...">
+      <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

@@ -49,14 +49,14 @@
       "name": "Neopreno corto",
       "precio": 5,
       "duracion": 1,
-      "img": "/img/neocorto.jpeg"
+      "img": "/img/neocorto.jpg"
     },
     {
       "id": 5,
       "name": "Neopreno largo",
       "precio": 8,
       "duracion": 1,
-      "img": "/img/neolargo.jpeg"
+      "img": "/img/neolargo.jpg"
     }
   ],
   "rutas": [

@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from "vue-router";
     <RouterLink to="/clases" class="link-secondary">
       <div class="col">
         <div class="card">
-          <img src="img/grupos.jpg" class="card-img-top" alt="..." />
+          <img src="img/grupo.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Clases</h5>
             <p class="card-text">
