@@ -1,0 +1,79 @@
+{
+    "clases":[
+        {
+            "id": 1,
+            "name": "individual",
+            "precio": 10,
+            "duracion": 1
+        },
+        {
+            "id": 2,
+            "name": "parejas",
+            "precio": 15,
+            "duracion": 1
+        },
+        {
+            "id": 3,
+            "name": "grupal",
+            "precio": 7,
+            "duracion": 2
+        }
+    ],
+    "alquileres":[
+        {
+            "id": 1,
+            "name": "Tabla surf principiantes",
+            "precio": 10,
+            "duracion": 1
+        },
+        {
+            "id": 2,
+            "name": "Tabla surf avanzados",
+            "precio": 14,
+            "duracion": 1
+        },
+        {
+            "id": 3,
+            "name": "Paddle surf",
+            "precio": 15,
+            "duracion": 1
+        },
+        {
+            "id": 4,
+            "name": "Neopreno corto",
+            "precio": 5,
+            "duracion": 1
+        },
+        {
+            "id": 5,
+            "name": "Neopreno largo",
+            "precio": 8,
+            "duracion": 1
+        }
+    ],
+    "rutas":[
+        {
+            "id": 1,
+            "name": "Soller",
+            "precio": 30
+        },
+        {
+            "id": 2,
+            "name": "Muro",
+            "precio": 30
+        }
+    ],
+    "hospedaje":[
+        {
+            "id": 1,
+            "habitacion": "individual",
+            "precio": 30
+        },
+        {
+            "id": 2,
+            "habitacion": "doble",
+            "precio": 50
+        }
+    ]
+
+}
